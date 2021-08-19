@@ -1,0 +1,49 @@
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.exe.config
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.exe
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.pdb
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csprojAssemblyReference.cache
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Properties.Resources.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csproj.GenerateResource.cache
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.exe
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.pdb
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form2.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\MySql.Data.dll
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\Google.Protobuf.dll
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\BouncyCastle.Crypto.dll
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\Renci.SshNet.dll
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\bin\Debug\MySql.Data.xml
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csproj.CopyComplete
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form1.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form3.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.CentralForm.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Randevu1.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Randevu2.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.RandevuEkle.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.HastaSistemi.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.DoktorSistemi.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.YoneticiKayit.resources
+F:\BACKUP\Visual Studio\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Doktor_Kayit.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.exe.config
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.exe
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\RandevuYazılımSistemi.pdb
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\Google.Protobuf.dll
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\Renci.SshNet.dll
+C:\Users\muura\Desktop\RandevuYazılımSistemi\bin\Debug\MySql.Data.xml
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csprojAssemblyReference.cache
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Doktor_Kayit.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.CentralForm.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form1.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form2.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Form3.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.HastaSistemi.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Properties.Resources.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Randevu1.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.Randevu2.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.RandevuEkle.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.DoktorSistemi.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.YoneticiKayit.resources
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csproj.GenerateResource.cache
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.csproj.CopyComplete
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.exe
+C:\Users\muura\Desktop\RandevuYazılımSistemi\obj\Debug\RandevuYazılımSistemi.pdb

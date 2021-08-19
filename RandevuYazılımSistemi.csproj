@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFAA94DE-46FB-4378-BFF9-217A503F0CA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RandevuYazılımSistemi</RootNamespace>
+    <AssemblyName>RandevuYazılımSistemi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Doktor Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Doktor Kayit.Designer.cs">
+      <DependentUpon>Doktor Kayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CentralForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CentralForm.Designer.cs">
+      <DependentUpon>CentralForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\DoktorKayıt.cs" />
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\FormConnector.cs" />
+    <Compile Include="Scripts\HastaKayit.cs" />
+    <Compile Include="Forms\HastaSistemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HastaSistemi.Designer.cs">
+      <DependentUpon>HastaSistemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Randevu1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Randevu1.Designer.cs">
+      <DependentUpon>Randevu1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Randevu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Randevu2.Designer.cs">
+      <DependentUpon>Randevu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RandevuEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RandevuEkle.Designer.cs">
+      <DependentUpon>RandevuEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\DoktorSistemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DoktorSistemi.Designer.cs">
+      <DependentUpon>DoktorSistemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\RandevuKayıt.cs" />
+    <Compile Include="Scripts\VeriTabaniBaglanti.cs" />
+    <Compile Include="Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\YoneticiKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\YoneticiKayit.Designer.cs">
+      <DependentUpon>YoneticiKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\YoneticiEkle.cs" />
+    <EmbeddedResource Include="Forms\Doktor Kayit.resx">
+      <DependentUpon>Doktor Kayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CentralForm.resx">
+      <DependentUpon>CentralForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HastaSistemi.resx">
+      <DependentUpon>HastaSistemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\Randevu1.resx">
+      <DependentUpon>Randevu1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Randevu2.resx">
+      <DependentUpon>Randevu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RandevuEkle.resx">
+      <DependentUpon>RandevuEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DoktorSistemi.resx">
+      <DependentUpon>DoktorSistemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\YoneticiKayit.resx">
+      <DependentUpon>YoneticiKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icons\circle855.png" />
+    <Content Include="Icons\Doktor Kaydet1.png" />
+    <Content Include="Icons\Doktor Listesi1.png" />
+    <Content Include="Icons\doktorSil0.png" />
+    <Content Include="Icons\doktorSil1.png" />
+    <Content Include="Icons\Geri0.png" />
+    <Content Include="Icons\Geri1.png" />
+    <Content Include="Icons\Hasta Kaydet1.png" />
+    <Content Include="Icons\Hasta Listesi1.png" />
+    <Content Include="Icons\hastaSil0.png" />
+    <Content Include="Icons\hastaSil1.png" />
+    <Content Include="Icons\Kayıt0.png" />
+    <Content Include="Icons\Kayıt1.png" />
+    <Content Include="Icons\Randevu Listesi1.png" />
+    <Content Include="Icons\Randevu Sistemi1.png" />
+    <Content Include="Icons\Cross.png" />
+    <Content Include="Icons\Doktor Kaydet.png" />
+    <Content Include="Icons\g876.png" />
+    <Content Include="Icons\g877.png" />
+    <Content Include="Icons\g878.png" />
+    <Content Include="Icons\LoginScreenIcon.png" />
+    <Content Include="Icons\randevuKaldır0.png" />
+    <Content Include="Icons\randevuKaldır1.png" />
+    <Content Include="Icons\SAATLER\BOŞ_10.png" />
+    <Content Include="Icons\SAATLER\BOŞ_11.png" />
+    <Content Include="Icons\SAATLER\BOŞ_12.png" />
+    <Content Include="Icons\SAATLER\BOŞ_13.png" />
+    <Content Include="Icons\SAATLER\BOŞ_14.png" />
+    <Content Include="Icons\SAATLER\BOŞ_15.png" />
+    <Content Include="Icons\SAATLER\BOŞ_16.png" />
+    <Content Include="Icons\SAATLER\BOŞ_9.png" />
+    <Content Include="Icons\SAATLER\DOLU_10.png" />
+    <Content Include="Icons\SAATLER\DOLU_11.png" />
+    <Content Include="Icons\SAATLER\DOLU_12.png" />
+    <Content Include="Icons\SAATLER\DOLU_13.png" />
+    <Content Include="Icons\SAATLER\DOLU_14.png" />
+    <Content Include="Icons\SAATLER\DOLU_15.png" />
+    <Content Include="Icons\SAATLER\DOLU_16.png" />
+    <Content Include="Icons\SAATLER\DOLU_9.png" />
+    <Content Include="Icons\SAATLER\yenile0.png" />
+    <Content Include="Icons\SAATLER\yenile1.png" />
+    <Content Include="Icons\SAATLER\İleri0.png" />
+    <Content Include="Icons\SAATLER\İleri1.png.png" />
+    <Content Include="Icons\Tick.png" />
+    <Content Include="Icons\Doktor Listesi.png" />
+    <Content Include="Icons\Hasta Kaydet.png" />
+    <Content Include="Icons\Hasta Listesi.png" />
+    <Content Include="Icons\Randevu Listesi.png" />
+    <Content Include="Icons\Randevu Sistemi.png" />
+    <Content Include="Icons\YeniKayıt0.png" />
+    <Content Include="Icons\YeniKayıt1.png" />
+    <Content Include="Icons\yenile0.png" />
+    <Content Include="Icons\yenile1.png" />
+    <Content Include="Icons\İleri0.png.png" />
+    <Content Include="Icons\İleri1.png.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
